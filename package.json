@@ -1,0 +1,22 @@
+{
+  "name": "Publish-an-NPM-module-in-TypeScript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askdaddy/Publish-an-NPM-module-in-TypeScript.git"
+  },
+  "author": "Askdaddy <askdaddy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
